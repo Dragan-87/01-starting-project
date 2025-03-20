@@ -1,6 +1,6 @@
 import Header from './components/Header/Header';
 import CoreConcepts from './components/CoreConcepts/CoreConcepts';
-import Exampel from './components/Exampel/Exampel';
+import Example from './components/Example/Example';
 
 function App() {
 
@@ -9,8 +9,8 @@ function App() {
         <>
             <Header />
             <main>
-                <CoreConcepts/>
-                <Exampel/>
+                <CoreConcepts />
+                <Example />
             </main>
         </>
     );
